@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#FFF3DA;
+}
+.container{
+    margin-top:1em;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.links{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size:1em;
+    font-weight:200;
+}
+.label img{
+    height:70px;
+    width:180px;
+}
+.links li{
+    display:inline;
+    margin-left:1.5em;
+}
+.links a{
+    text-decoration:none;
+}
+.about,.contact{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-family: 'Poppins', sans-serif;
+    height:70vh;
+    font-size:1.25em;
+}
+.AboutUs{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Dancing Script', cursive;
+    font-size:1.5em;
+}
+.form{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.blog{
+    height:72vh;
+    padding:30px;
+}
+form{
+    margin:30px;
+    width:100%;
+}
+.form input[type="text"],textarea{
+    padding:10px;
+    width:100%;
+}
+.form button{
+    border:none;
+    padding:10px;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+.foot{
+    height:5vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:black;
+    margin-top:75px;
+}
+.home{
+    display:flex;
+    flex-direction:column;
+    height:20vh;
+    width:100%;
+    font-size:1.5rem;
+}
+.div{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:10vh;
+    font-size:1.5rem;
+}
+.cont{
+    height:70vh;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    padding:40px;
+}

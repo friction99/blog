@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+<div class="cont">
+    <div class="home">
+        <h2>Write blogs on the go</h2>
+        <p>Feel free to express and share your thoughts,emotions and experiences.<br></p>
+    </div>
+    <div class="blog">
+            <%data.forEach(function(dat){%>
+                <div class="div">
+                   <h2><%=dat.title%></h2>
+                   <p>
+                       <%= dat.body.substring(0,100)+"..."%>
+                       <a href="/post/<%= dat.id %>">Read More</a>
+                   </p>
+                </div>
+            <%})%>
+    </div>
+</div>
+<%- include("partials/footer.ejs") %>
